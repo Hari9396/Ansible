@@ -1,7 +1,5 @@
 - name: checking variable preperence
   hosts: localhost
-  vars_files:
-  -  vars.yaml
   tasks:
   - name: check prepfernces
     ansible.builtin.debug:
