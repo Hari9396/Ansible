@@ -1,0 +1,5 @@
+- name: pinging the server
+  hosts:  web
+  tasks:
+  - name: ping remote servers
+    ansible.builtin.ping
