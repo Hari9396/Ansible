@@ -1,6 +1,6 @@
 - name: checking variable preperence
   hosts: localhost
   tasks:
-  - name: check prepfernces
+  - name: check preferences
     ansible.builtin.debug:
       msg: "Hello, good {{WISHES}}"
