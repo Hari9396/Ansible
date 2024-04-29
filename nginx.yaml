@@ -4,7 +4,7 @@
   tasks:
   - name: install nigin
     ansible.builtin.dnf:
-      name: niginx
+      name: nignx
       state:  latest
   - name: start niginx
     ansible.builtin.service:
