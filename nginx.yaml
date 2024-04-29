@@ -1,0 +1,15 @@
+- name: install and start niginx
+  hosts:  web
+  become: yes
+  tasks:
+  - name: install nigin
+    ansible.builtin.dnf:
+      name: niginx
+      state:  latest
+  - name: start niginx
+    ansible.builtin.service:
+      name: niginx
+      state:  started
+      enabled:  yes
+
+  
