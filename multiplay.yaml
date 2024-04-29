@@ -1,5 +1,5 @@
 - name: MultiPlaybook2
-  hosts:  web
+  hosts:  localhost
   become: yes
   tasks:
   - name: Playbook1
@@ -7,7 +7,7 @@
       msg:  "Hello from task1 and playbook1" 
 
 - name: MultiPlaybook1
-  hosts:  web
+  hosts:  localhost
   become: yes
   tasks:
   - name: Playbook2
