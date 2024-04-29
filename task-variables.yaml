@@ -7,7 +7,7 @@
   tasks:
   - name: Print Information
     vars:
-      course: DevOps
+      course: Terraform
       Trainer:  Siva
       Duration: 3.5months
     ansible.builtin.debug:
