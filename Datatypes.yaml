@@ -13,5 +13,5 @@
     RealProject: true #boolean
   tasks:
   - name: Print Info
-    ansible.builtin.debug
+    ansible.builtin.debug:
       msg: "Course:{{course}},Tools Covered:{{Tools}},Experience is:{{Experience}}, is RealProject:{{RealProject}}"
