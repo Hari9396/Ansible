@@ -4,11 +4,11 @@
   tasks:
   - name: install nigin
     ansible.builtin.dnf:
-      name: nignx
+      name: nginx
       state:  latest
   - name: start niginx
     ansible.builtin.service:
-      name: niginx
+      name: nginx
       state:  started
       enabled:  yes
 
