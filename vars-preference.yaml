@@ -1,7 +1,5 @@
 - name: checking variable preperence
   hosts: localhost
-  vars:
-    WISHES: Morning from play variable
   vars_files:
   -  vars.yaml
   tasks:
