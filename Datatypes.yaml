@@ -1,6 +1,6 @@
 - name: Data types
   hosts:  localhost
-  Vars:
+  vars:
     course: DevOps #String
     Tools: #List
     - Linux
